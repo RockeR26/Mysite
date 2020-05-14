@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Playfair+Display:wght@500&family=Sacramento&display=swap');
+body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+}
+.top{
+    background-color:#EAF6F6;
+    text-align: center;
+    position: relative;
+    bottom:3.5em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+.middle{
+    margin-top: 0em;
+    position: relative;
+    bottom: 1.19em;
+    padding-top:5em ;
+    text-align: center;
+}
+.bottom{
+    background-color: #66BFBF;
+    text-align: center;
+    position: relative;
+    line-height: 2;
+    padding-top: 40px;
+}
+.topcloud{
+    position:absolute;
+    right:200px;
+    padding-top: 40px;
+}
+
+.bottomcloud{
+    position: absolute;
+    left: 200px;
+    padding-top: 20px;
+}
+h1{
+    padding-top:80px;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5em;
+    margin-bottom: 0em;
+}
+h2{
+    margin-top: 0em;
+    color: #11999E;
+    display: block;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    
+}
+h3{
+    color: #66BFBF;
+    font-size: 1.7em;
+    font-family: 'Playfair Display', serif;
+    margin:0;
+    margin-bottom: 10px;
+}
+hr{
+    border-style: dotted;
+    border-width: 5px 0px 0px 0px;
+    width: 10%;
+    border-color: gray;
+}
+p,a{
+    color:#000000;
+    font-size: 1.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0;
+}
+.profilep{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.computer{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    padding-right: 30px;
+}
+.chillies{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    float:right;
+}
+.footer-link{
+    padding:50px;
+}
+.skill-row{
+
+    width: 50%;
+    margin:50px auto 100px auto;
+    text-align: left;
+    line-height: 2;   
+}
+ul{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1em;
+}
+.profile{
+    margin:20px auto 100px auto;
+}
+
+.contact-me{
+    margin:100px auto 100px auto;
+}
+
+.h2{
+    text-align: center;
+}
+.cr{
+    font-size: 1em;
+    padding-top:50px;
+}
+.button {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #11999E;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.button:hover {
+ background: #66BFCF;
+ border: solid #000000 1px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ text-decoration: none;
+}
